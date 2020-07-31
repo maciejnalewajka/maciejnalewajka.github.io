@@ -144,7 +144,7 @@ input, select, textarea {
 	}
 
 	header {
-		margin: 0 0 2em 0;
+		margin: 2em 0 0 0;
 	}
 
 		header > p {
@@ -262,7 +262,7 @@ input, select, textarea {
 /* Row */
 
 	.row {
-		display: flex;
+		display: inline-flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
@@ -454,6 +454,7 @@ input, select, textarea {
 		.row {
 			margin-top: -40px;
 			margin-left: -40px;
+			display: inline-flex;
 		}
 
 			.row > * {
@@ -505,7 +506,7 @@ input, select, textarea {
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.row {
-				display: flex;
+				display: inline-flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -750,7 +751,7 @@ input, select, textarea {
 		@media screen and (min-width: 961px) and (max-width: 1620px) {
 
 			.row {
-				display: flex;
+				display: inline-flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -995,7 +996,7 @@ input, select, textarea {
 		@media screen and (min-width: 961px) and (max-width: 1320px) {
 
 			.row {
-				display: flex;
+				display: inline-flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1240,7 +1241,7 @@ input, select, textarea {
 		@media screen and (max-width: 960px) {
 
 			.row {
-				display: flex;
+				display: inline-flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1748,11 +1749,17 @@ input, select, textarea {
 	.image {
 		display: inline-block;
 		border: 0;
+		overflow: hidden;
 	}
 
 		.image img {
-			display: block;
+			display: inline-flex;
 			width: 100%;
+			transition: transform 0.3s ease-in-out;
+		}
+
+		.image img:hover {
+			transform: scale(1.1);
 		}
 
 		.image.avatar48 {
@@ -1767,8 +1774,7 @@ input, select, textarea {
 			}
 
 		.image.fit {
-			display: block;
-			width: 100%;
+			display: inline-flex;
 		}
 
 		.image.featured {
@@ -1949,6 +1955,7 @@ input, select, textarea {
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
+		margin-bottom: 1.5em;
 		background-color: #5e6f64;
 		border: 0;
 		cursor: pointer;
@@ -2179,7 +2186,6 @@ input, select, textarea {
 		margin-left: 375px;
 		text-align: center;
 		background-color: #dce3e2;
-		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
 	}
@@ -2211,7 +2217,7 @@ input, select, textarea {
 
 		#main > section {
 			margin: 0;
-			padding: 2cm 0;
+			padding: 0;
 			overflow: hidden;
 			text-align: center;
 			background-image: url("images/oriental-tiles.png");
@@ -2304,7 +2310,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section {
-				padding: 3em 0;
+				padding: 0;
 			}
 
 			#main section.cover {
@@ -2570,7 +2576,7 @@ input, select, textarea {
 			}
 
 				#main > section {
-					padding: 3em 0;
+					padding: 0;
 				}
 
 				#main section.cover {
@@ -2609,7 +2615,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section {
-				padding: 2em 0;
+				padding: 0;
 			}
 
 			#main section.cover {
