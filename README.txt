@@ -42,8 +42,10 @@ Credits:
 
 
 ========================================================
- This patterns are downloaded from www.subtlepatterns.com 
+ This patterns are downloaded from www.subtlepatterns.com
  If you need more, that's where to get'em.
  ========================================================
- 
- 
+========================================================
+ Icons made by <a href="https://smashicons.com/" title="Smashicons">
+ Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">
+  www.flaticon.com</a>
