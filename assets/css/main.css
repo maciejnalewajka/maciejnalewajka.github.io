@@ -463,7 +463,6 @@ input, select, textarea {
 
 		.row {
 			margin-top: -40px;
-			/* margin-left: 0; */
 			display: inline-flex;
 		}
 
@@ -1635,7 +1634,7 @@ input, select, textarea {
 				}
 
 				.row > .col-12-mobile {
-					width: 100%;
+					width: 50%;
 				}
 
 				.row > .off-12-mobile {
