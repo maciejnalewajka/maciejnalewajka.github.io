@@ -1635,6 +1635,7 @@ input, select, textarea {
 
 				.row > .col-12-mobile {
 					width: 50%;
+					height: 50%;
 				}
 
 				.row > .off-12-mobile {
