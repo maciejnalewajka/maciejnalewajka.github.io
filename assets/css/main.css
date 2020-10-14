@@ -2012,7 +2012,6 @@ input, select, textarea {
 		}
 		.item #download header{
 			background: #770707;
-			cursor: pointer;
 		}
 
 		.item #download{
@@ -2033,6 +2032,7 @@ input, select, textarea {
 			border: none;
 			font-weight: 500;
 			color: #fff !important;
+			cursor: pointer;
 		}
 
 			.item header h3 {
