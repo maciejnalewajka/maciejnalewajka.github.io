@@ -112,8 +112,8 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
-		color: #666;
+		font-weight: 600;
+		color: #2b2727;
 		line-height: 1.5em;
 	}
 
@@ -2009,6 +2009,30 @@ input, select, textarea {
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+		}
+		.item #download header{
+			background: #770707;
+			cursor: pointer;
+		}
+
+		.item #download{
+			box-sizing: inherit;
+			overflow: hidden;
+		}
+
+		.item #download header:hover{
+			transform: scale(1.1);
+		}
+
+		.item #download header{
+			padding: 10px;
+			transition: transform 0.3s ease-in-out;
+		}
+
+		.item #download a{
+			border: none;
+			font-weight: 500;
+			color: #fff !important;
 		}
 
 			.item header h3 {
