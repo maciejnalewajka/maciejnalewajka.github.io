@@ -147,12 +147,20 @@ input, select, textarea {
 		margin: 2em 0 0 0;
 	}
 
+	#origami_top{
+		margin-top: 3em;
+	}
+
 		header > p {
 			margin: 1em 0 0 0;
 		}
 
 	footer {
 		margin: 2em 0 0 0;
+	}
+
+	#origami_bottom{
+		margin-bottom: 10em;
 	}
 
 	strong, b {
@@ -2282,7 +2290,7 @@ input, select, textarea {
 					}
 
 			#main > section.cover {
-				padding: 10em 0;
+				padding: 0;
 				background-size: cover;
 				background-position: center center;
 			}
@@ -2349,7 +2357,7 @@ input, select, textarea {
 			}
 
 			#main section.cover {
-				padding: 5em 0;
+				padding: 0 0;
 			}
 
 	}
