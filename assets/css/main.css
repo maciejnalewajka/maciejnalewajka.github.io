@@ -218,6 +218,10 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
+	
+	.image.avatar48 {
+		border: solid 0.5px grey;
+	}
 
 /* Container */
 
