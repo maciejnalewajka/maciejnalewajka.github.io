@@ -175,7 +175,6 @@ input, select, textarea {
 	a {
 		text-decoration: none;
 		color: inherit;
-		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
 		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -221,6 +220,10 @@ input, select, textarea {
 	
 	.image.avatar48 {
 		border: solid 0.5px grey;
+	}
+
+	.privacy_policy_button header {
+		background-color: #FFC5C5;
 	}
 
 /* Container */
@@ -2017,16 +2020,19 @@ input, select, textarea {
 	}
 
 		.item header {
-			background: #fff;
 			margin: 0;
-			padding: 1em 0 1em 0;
 			font-size: 0.8em;
 		}
 		.item #download header{
-			background: #770707;
+			background: #89B9AD;
 		}
 
 		.item #download{
+			box-sizing: inherit;
+			overflow: hidden;
+		}
+
+		.item .privacy_policy_button{
 			box-sizing: inherit;
 			overflow: hidden;
 		}
@@ -2035,15 +2041,32 @@ input, select, textarea {
 			transform: scale(1.1);
 		}
 
+		.item .privacy_policy_button header:hover{
+			transform: scale(1.1);
+		}
+
 		.item #download header{
 			padding: 10px;
+			transition: transform 0.3s ease-in-out;
+		}
+
+		.item .privacy_policy_button header{
+			padding: 0px;
 			transition: transform 0.3s ease-in-out;
 		}
 
 		.item #download a{
 			border: none;
 			font-weight: 500;
-			color: #fff !important;
+			color: #000 !important;
+			cursor: pointer;
+		}
+
+		.item .privacy_policy_button a{
+			text-decoration: none;
+			border: none;
+			font-weight: 500;
+			color: #000 !important;
 			cursor: pointer;
 		}
 
