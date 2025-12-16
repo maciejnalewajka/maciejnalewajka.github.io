@@ -236,7 +236,7 @@ input, select, textarea {
 		background-color: #FFC5C5;
 	}
 
-	.documentation_button header {
+	#documentation_button header {
 		background-color: #fcff53;
 	}
 
@@ -2051,7 +2051,7 @@ input, select, textarea {
 			overflow: hidden;
 		}		
 		
-		.item .documentation_button{
+		.item #documentation_button{
 			box-sizing: inherit;
 			overflow: hidden;
 		}
@@ -2064,7 +2064,7 @@ input, select, textarea {
 			transform: scale(1.1);
 		}
 
-		.item .documentation_button header:hover{
+		.item #documentation_button header:hover{
 			transform: scale(1.1);
 		}
 
@@ -2078,7 +2078,7 @@ input, select, textarea {
 			transition: transform 0.3s ease-in-out;
 		}
 
-		.item .documentation_button header{
+		.item #documentation_button header{
 			padding: 0px;
 			transition: transform 0.3s ease-in-out;
 		}
@@ -2098,7 +2098,7 @@ input, select, textarea {
 			cursor: pointer;
 		}
 
-		.item .documentation_button a{
+		.item #documentation_button a{
 			text-decoration: none;
 			border: none;
 			font-weight: 500;
