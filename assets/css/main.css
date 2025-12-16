@@ -236,6 +236,10 @@ input, select, textarea {
 		background-color: #FFC5C5;
 	}
 
+	.documentation_button header {
+		background-color: #fcff53;
+	}
+
 /* Container */
 
 	.container {
@@ -2045,6 +2049,11 @@ input, select, textarea {
 		.item .privacy_policy_button{
 			box-sizing: inherit;
 			overflow: hidden;
+		}		
+		
+		.item .documentation_button{
+			box-sizing: inherit;
+			overflow: hidden;
 		}
 
 		.item #download header:hover{
@@ -2052,6 +2061,10 @@ input, select, textarea {
 		}
 
 		.item .privacy_policy_button header:hover{
+			transform: scale(1.1);
+		}
+
+		.item .documentation_button header:hover{
 			transform: scale(1.1);
 		}
 
@@ -2065,6 +2078,11 @@ input, select, textarea {
 			transition: transform 0.3s ease-in-out;
 		}
 
+		.item .documentation_button header{
+			padding: 0px;
+			transition: transform 0.3s ease-in-out;
+		}
+
 		.item #download a{
 			border: none;
 			font-weight: 500;
@@ -2073,6 +2091,14 @@ input, select, textarea {
 		}
 
 		.item .privacy_policy_button a{
+			text-decoration: none;
+			border: none;
+			font-weight: 500;
+			color: #000 !important;
+			cursor: pointer;
+		}
+
+		.item .documentation_button a{
 			text-decoration: none;
 			border: none;
 			font-weight: 500;
